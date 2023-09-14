@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.170383a2.css",
-    "main.js": "/static/js/main.3245063f.js",
-    "static/js/787.255a7fd4.chunk.js": "/static/js/787.255a7fd4.chunk.js",
-    "index.html": "/index.html",
-    "main.170383a2.css.map": "/static/css/main.170383a2.css.map",
-    "main.3245063f.js.map": "/static/js/main.3245063f.js.map",
-    "787.255a7fd4.chunk.js.map": "/static/js/787.255a7fd4.chunk.js.map"
+    "main.css": "/adara-vc/static/css/main.170383a2.css",
+    "main.js": "/adara-vc/static/js/main.354cba6d.js",
+    "static/js/787.255a7fd4.chunk.js": "/adara-vc/static/js/787.255a7fd4.chunk.js",
+    "index.html": "/adara-vc/index.html",
+    "main.170383a2.css.map": "/adara-vc/static/css/main.170383a2.css.map",
+    "main.354cba6d.js.map": "/adara-vc/static/js/main.354cba6d.js.map",
+    "787.255a7fd4.chunk.js.map": "/adara-vc/static/js/787.255a7fd4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.170383a2.css",
-    "static/js/main.3245063f.js"
+    "static/js/main.354cba6d.js"
   ]
 }
