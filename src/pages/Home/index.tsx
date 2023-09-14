@@ -4,7 +4,6 @@ import Portfolio from "../Portfolio";
 import OurTeam from "../OurTeam";
 import GivingBack from "../GivingBack";
 import ContactUs from "../ContactUs";
-import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -15,7 +14,6 @@ const Home = () => {
       <OurTeam/>
       <GivingBack/>
       <ContactUs/>
-      <Footer/>
     </div>
   );
 };

@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from '@emotion/react';
 import { createTheme } from '@mui/material';
-import {
-  RouterProvider,
-} from "react-router-dom";
-import Router from "./router/index";
+// import {
+//   RouterProvider,
+// } from "react-router-dom";
+// import Router from "./router/index";
 import reportWebVitals from './reportWebVitals';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
 import './index.css';
 
 const root = ReactDOM.createRoot(
@@ -136,7 +139,7 @@ const App = () => {
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <RouterProvider router={Router}/>
+        <div> <Header/> <Home/> <Footer/> </div>
       </ThemeProvider>    
     </div>
   )
