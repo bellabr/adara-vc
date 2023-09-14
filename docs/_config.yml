@@ -19,12 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Adara Venture Capital
-email: your-email@example.com
+# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Meaningful investments in the future of life sciences.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bellabr.github.io/adara-vc/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+# twitter_username: jekyllrb
 github_username:  bellabr
 
 # Build settings
