@@ -58,17 +58,17 @@ const GivingBack = () => {
           <Grid container direction="row" justifyContent="center">
             <Grid item xs={4} id="giving-back-logos">
               <div id="giving-back-logo">
-                <img onClick={onACHF} src={"/givingback/achf.png"} alt="achf-logo"/>
+                <img onClick={onACHF} src={"./givingback/achf.png"} alt="achf-logo"/>
               </div>
             </Grid>
             <Grid item xs={4} id="giving-back-logos">
               <div id="giving-back-logo">
-                <img onClick={onCCS} src={"/givingback/ccs.png"} alt="ccs-logo"/>
+                <img onClick={onCHF} src={"./givingback/chf.png"} alt="chf-logo"/>
               </div>
             </Grid>
             <Grid item xs={4} id="giving-back-logos">
               <div id="giving-back-logo">
-                <img onClick={onCHF} src={"/givingback/chf.png"} alt="chf-logo"/>
+                <img onClick={onCHS} src={"./givingback/chs.png"} alt="chs-logo"/>
               </div>
             </Grid>
           </Grid>
@@ -76,17 +76,17 @@ const GivingBack = () => {
             <Grid container direction="row" justifyContent="center">
               <Grid item xs={4} id="giving-back-logos">
                 <div id="giving-back-logo">
-                  <img onClick={onCHS} src={"/givingback/chs.png"} alt="chs-logo"/>
+                  <img onClick={onCWES} src={"./givingback/cwes.png"} alt="cwes-logo"/>
                 </div>
               </Grid>
               <Grid item xs={4} id="giving-back-logos">
                 <div id="giving-back-logo">
-                  <img onClick={onCWES} src={"/givingback/cwes.png"} alt="cwes-logo"/>
+                  <img onClick={onCCS} src={"./givingback/ccs.png"} alt="ccs-logo"/>
                 </div>
               </Grid>
               <Grid item xs={4} id="giving-back-logos">
                 <div id="giving-back-logo">
-                  <img onClick={onCC} src={"/givingback/cc.png"} alt="cc-logo"/>
+                  <img onClick={onCC} src={"./givingback/cc.png"} alt="cc-logo"/>
                 </div>
               </Grid>
             </Grid>
@@ -95,17 +95,17 @@ const GivingBack = () => {
             <Grid container direction="row" justifyContent="center">
               <Grid item xs={4} id="giving-back-logos">
                 <div id="giving-back-logo">
-                  <img onClick={onHFHF} src={"/givingback/hfhf.png"} alt="hfhf-logo"/>
+                  <img onClick={onHFHF} src={"./givingback/hfhf.png"} alt="hfhf-logo"/>
                 </div>
               </Grid>
               <Grid item xs={4} id="giving-back-logos">
                 <div id="giving-back-logo">
-                  <img onClick={onLF} src={"/givingback/lf.png"} alt="lf-logo"/>
+                  <img onClick={onLF} src={"./givingback/lf.png"} alt="lf-logo"/>
                 </div>
               </Grid>
               <Grid item xs={4} id="giving-back-logos">
                 <div id="giving-back-logo">
-                  <img onClick={onMomentum} src={"/givingback/momentum.png"} alt="momentum-logo"/>
+                  <img onClick={onMomentum} src={"./givingback/momentum.png"} alt="momentum-logo"/>
                 </div>
               </Grid>
             </Grid>
@@ -114,12 +114,12 @@ const GivingBack = () => {
             <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="giving-back-logos">
                 <div id="giving-back-logo">
-                  <img onClick={onPFP} src={"/givingback/pfp.png"} alt="pfp-logo"/>
+                  <img onClick={onPFP} src={"./givingback/pfp.png"} alt="pfp-logo"/>
                 </div>
               </Grid>
               <Grid item xs={5} id="giving-back-logos">
                 <div id="giving-back-logo">
-                  <img onClick={onYWCA} src={"/givingback/ywca.png"} alt="ywca-logo"/>
+                  <img onClick={onYWCA} src={"./givingback/ywca.png"} alt="ywca-logo"/>
                 </div>
               </Grid>
             </Grid>
@@ -139,12 +139,12 @@ const GivingBack = () => {
             <Grid container direction="row" justifyContent="center">
               <Grid item xs={6} id="giving-back-logos">
                 <div id="giving-back-logo">
-                  <img onClick={onACHF} src={"/givingback/achf.png"} alt="achf-logo"/>
+                  <img onClick={onACHF} src={"./givingback/achf.png"} alt="achf-logo"/>
                 </div>
               </Grid>
               <Grid item xs={6} id="giving-back-logos">
                 <div id="giving-back-logo">
-                  <img onClick={onCCS} src={"/givingback/ccs.png"} alt="ccs-logo"/>
+                  <img onClick={onCHF} src={"./givingback/chf.png"} alt="chf-logo"/>
                 </div>
               </Grid>
             </Grid>
@@ -152,26 +152,12 @@ const GivingBack = () => {
               <Grid container direction="row" justifyContent="center">
                 <Grid item xs={6} id="giving-back-logos">
                   <div id="giving-back-logo">
-                    <img onClick={onCHF} src={"/givingback/chf.png"} alt="chf-logo"/>
+                    <img onClick={onCHS} src={"./givingback/chs.png"} alt="chs-logo"/>
                   </div>
                 </Grid>
                 <Grid item xs={6} id="giving-back-logos">
                   <div id="giving-back-logo">
-                    <img onClick={onCHS} src={"/givingback/chs.png"} alt="chs-logo"/>
-                  </div>
-                </Grid>
-              </Grid>
-            </Grid>
-            <Grid container direction="column" id="giving-back-grid">
-              <Grid container direction="row" justifyContent="center">
-                <Grid item xs={6} id="giving-back-logos">
-                  <div id="giving-back-logo">
-                    <img onClick={onCWES} src={"/givingback/cwes.png"} alt="cwes-logo"/>
-                  </div>
-                </Grid>
-                <Grid item xs={6} id="giving-back-logos">
-                  <div id="giving-back-logo">
-                    <img onClick={onCC} src={"/givingback/cc.png"} alt="cc-logo"/>
+                    <img onClick={onCWES} src={"./givingback/cwes.png"} alt="cwes-logo"/>
                   </div>
                 </Grid>
               </Grid>
@@ -180,26 +166,12 @@ const GivingBack = () => {
               <Grid container direction="row" justifyContent="center">
                 <Grid item xs={6} id="giving-back-logos">
                   <div id="giving-back-logo">
-                    <img onClick={onHFHF} src={"/givingback/hfhf.png"} alt="hfhf-logo"/>
+                    <img onClick={onCCS} src={"./givingback/ccs.png"} alt="ccs-logo"/>
                   </div>
                 </Grid>
                 <Grid item xs={6} id="giving-back-logos">
                   <div id="giving-back-logo">
-                    <img onClick={onLF} src={"/givingback/lf.png"} alt="lf-logo"/>
-                  </div>
-                </Grid>
-              </Grid>
-            </Grid>
-            <Grid container direction="column" id="giving-back-grid">
-              <Grid container direction="row" justifyContent="center">
-                <Grid item xs={6} id="giving-back-logos">
-                  <div id="giving-back-logo">
-                    <img onClick={onMomentum} src={"/givingback/momentum.png"} alt="momentum-logo"/>
-                  </div>
-                </Grid>
-                <Grid item xs={6} id="giving-back-logos">
-                  <div id="giving-back-logo">
-                    <img onClick={onPFP} src={"/givingback/pfp.png"} alt="pfp-logo"/>
+                    <img onClick={onCC} src={"./givingback/cc.png"} alt="cc-logo"/>
                   </div>
                 </Grid>
               </Grid>
@@ -208,7 +180,35 @@ const GivingBack = () => {
               <Grid container direction="row" justifyContent="center">
                 <Grid item xs={6} id="giving-back-logos">
                   <div id="giving-back-logo">
-                    <img onClick={onYWCA} src={"/givingback/ywca.png"} alt="ywca-logo"/>
+                    <img onClick={onHFHF} src={"./givingback/hfhf.png"} alt="hfhf-logo"/>
+                  </div>
+                </Grid>
+                <Grid item xs={6} id="giving-back-logos">
+                  <div id="giving-back-logo">
+                    <img onClick={onLF} src={"./givingback/lf.png"} alt="lf-logo"/>
+                  </div>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid container direction="column" id="giving-back-grid">
+              <Grid container direction="row" justifyContent="center">
+                <Grid item xs={6} id="giving-back-logos">
+                  <div id="giving-back-logo">
+                    <img onClick={onMomentum} src={"./givingback/momentum.png"} alt="momentum-logo"/>
+                  </div>
+                </Grid>
+                <Grid item xs={6} id="giving-back-logos">
+                  <div id="giving-back-logo">
+                    <img onClick={onPFP} src={"./givingback/pfp.png"} alt="pfp-logo"/>
+                  </div>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid container direction="column" id="giving-back-grid">
+              <Grid container direction="row" justifyContent="center">
+                <Grid item xs={6} id="giving-back-logos">
+                  <div id="giving-back-logo">
+                    <img onClick={onYWCA} src={"./givingback/ywca.png"} alt="ywca-logo"/>
                   </div>
                 </Grid>
               </Grid>

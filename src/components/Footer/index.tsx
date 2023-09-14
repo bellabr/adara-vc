@@ -44,7 +44,7 @@ const Footer = () => {
             </Grid>
             <Grid item xs={2} className="logo">
               <a href="#header">
-                <img src={"/adara-logo.png"} alt="company-logo" id="footer-logo"/>
+                <img src={"./adara-logo.png"} alt="company-logo" id="footer-logo"/>
               </a>
             </Grid>
         </Grid>
@@ -88,12 +88,14 @@ const Footer = () => {
                     </Grid>
                 </Grid>
             </Grid>
-            <Grid container xs={6} className="logo" alignItems="center" justifyContent="flex-end">
-              <Grid item>
-                <a href="#header">
-                  <img src={"/adara-logo.png"} alt="company-logo" id="footer-logo"/>
-                </a>
-              </Grid>
+            <Grid item xs={6}>
+                <Grid container className="logo" alignItems="center" justifyContent="flex-end">
+                    <Grid item>
+                        <a href="#header">
+                            <img src={"./adara-logo.png"} alt="company-logo" id="footer-logo"/>
+                        </a>
+                    </Grid>
+                </Grid>
             </Grid>
         </Grid>
     );

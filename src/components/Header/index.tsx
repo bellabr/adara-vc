@@ -18,12 +18,14 @@ const Header = () => {
     const desktopMenu = () => {
         return (
             <Grid container spacing={1} id="header" alignItems="center" justifyContent="center">
-                <Grid container xs={4} direction="row" id="logo" alignItems="center" justifyContent="center">
-                    <Grid item alignItems="center">
-                        <img src={"/adara-logo.png"} alt="company-logo" id="header-logo"/>
-                    </Grid>
-                    <Grid item>
-                        <img src={"/adara-logo-text.png"} alt="company-text" id="header-logo-text"/>
+                <Grid item xs={4}>
+                    <Grid container direction="row" id="logo" alignItems="center" justifyContent="center">
+                        <Grid item alignItems="center">
+                            <img src={"./adara-logo.png"} alt="company-logo" id="header-logo"/>
+                        </Grid>
+                        <Grid item>
+                            <img src={"./adara-logo-text.png"} alt="company-text" id="header-logo-text"/>
+                        </Grid>
                     </Grid>
                 </Grid>
                 <Grid item xs={8}>
@@ -64,7 +66,7 @@ const Header = () => {
             <div id="header">
                 <Grid container justifyContent="space-between" id="mobile-header">
                     <Grid item xs={2}>
-                        <img src={"/adara-logo.png"} alt="company-logo" id="mobile-header-logo"/>
+                        <img src={"./adara-logo.png"} alt="company-logo" id="mobile-header-logo"/>
                     </Grid>
                     <Grid item xs={2} id="hamburger">
                         <IconButton

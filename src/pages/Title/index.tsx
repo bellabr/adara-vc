@@ -9,7 +9,7 @@ const Title = () => {
     return (
       <div id="title-container">
         <Typography id="title-text" variant="h1" align="center">Meaningful investments in the future of life sciences</Typography>
-        <img src={"/adara-logo.png"} alt="company-logo" id="header-logo"/>
+        <img src={"./adara-logo.png"} alt="company-logo" id="header-logo"/>
       </div>
     );
   };
@@ -18,7 +18,7 @@ const Title = () => {
     return (
       <div id="mobile-title-container">
         <Typography id="mobile-title-text" variant="h2" align="center">Meaningful investments in the future of life sciences</Typography>
-        <img src={"/adara-logo.png"} alt="company-logo" id="header-logo"/>
+        <img src={"./adara-logo.png"} alt="company-logo" id="header-logo"/>
       </div>
     );
   };

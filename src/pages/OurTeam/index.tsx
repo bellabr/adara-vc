@@ -33,21 +33,21 @@ const OurTeam = () => {
             <Grid item xs={4} id="member-logos">
               <div id="member">
                 <HtmlTooltip title="Meg Bregazzi (she/her)" arrow>
-                  <img src={"/team/meg.png"} alt="meg-bregazzi"/>
+                  <img src={"./team/meg.png"} alt="meg-bregazzi"/>
                 </HtmlTooltip>
               </div>
             </Grid>
             <Grid item xs={4} id="member-logos">
               <div id="member">
                 <HtmlTooltip title="Heather Edwards (she/her)" arrow>
-                  <img src={"/team/meg.png"} alt="heather-edwards"/>
+                  <img src={"./team/heather.webp"} alt="heather-edwards"/>
                 </HtmlTooltip>
               </div>
             </Grid>
             <Grid item xs={4} id="member-logos">
               <div id="member">
                 <HtmlTooltip title="Victoria Larson (she/her)" arrow>
-                  <img src={"/team/vic.jpeg"} alt="victoria-larson"/>
+                  <img src={"./team/vic.jpeg"} alt="victoria-larson"/>
                 </HtmlTooltip>
               </div>
             </Grid>
@@ -56,21 +56,21 @@ const OurTeam = () => {
             <Grid item xs={4} id="member-logos">
               <div id="member">
                 <HtmlTooltip title="Karen Radford (she/her)" arrow>
-                  <img src={"/team/karen.jpeg"} alt="karen-radford"/>
+                  <img src={"./team/karen.jpeg"} alt="karen-radford"/>
                 </HtmlTooltip>
               </div>
             </Grid>
             <Grid item xs={4} id="member-logos">
               <div id="member">
                 <HtmlTooltip title="Jane Snyder (she/her)" arrow>
-                  <img src={"/team/jane.jpeg"} alt="jane-snyder"/>
+                  <img src={"./team/jane.jpeg"} alt="jane-snyder"/>
                 </HtmlTooltip>
               </div>
             </Grid>
             <Grid item xs={4} id="member-logos">
               <div id="member">
                 <HtmlTooltip title="Carol Ann Williams (she/her)" arrow>
-                  <img src={"/team/carolann.png"} alt="carol-ann-williams"/>
+                  <img src={"./team/carolann.png"} alt="carol-ann-williams"/>
                 </HtmlTooltip>
               </div>
             </Grid>
@@ -89,37 +89,37 @@ const OurTeam = () => {
           <Grid container direction="column" id="our-team-grid">
             <Grid item id="member-logos">
               <div id="member">
-                <img src={"/team/meg.png"} alt="meg-bregazzi"/>
+                <img src={"./team/meg.png"} alt="meg-bregazzi"/>
                 <Typography variant="body2" id="member-name" align="center">Meg Bregazzi <br/> (she/her)</Typography>
               </div>
             </Grid>
             <Grid item id="member-logos">
               <div id="member">
-                <img src={"/team/meg.png"} alt="heather-edwards"/>
+                <img src={"./team/heather.webp"} alt="heather-edwards"/>
                 <Typography variant="body2" id="member-name" align="center">Heather Edwards <br/> (she/her)</Typography>
               </div>
             </Grid>
             <Grid item id="member-logos">
               <div id="member">
-                <img src={"/team/vic.jpeg"} alt="victoria-larson"/>
+                <img src={"./team/vic.jpeg"} alt="victoria-larson"/>
                 <Typography variant="body2" id="member-name" align="center">Victoria Larson <br/> (she/her)</Typography>
               </div>
             </Grid>
             <Grid item id="member-logos">
               <div id="member">
-                <img src={"/team/karen.jpeg"} alt="karen-radford"/>
+                <img src={"./team/karen.jpeg"} alt="karen-radford"/>
                 <Typography variant="body2" id="member-name" align="center">Karen Radford <br/> (she/her)</Typography>
               </div>
             </Grid>
             <Grid item id="member-logos">
               <div id="member">
-                <img src={"/team/jane.jpeg"} alt="jane-snyder"/>
+                <img src={"./team/jane.jpeg"} alt="jane-snyder"/>
                 <Typography variant="body2" id="member-name" align="center">Jane Snyder <br/> (she/her)</Typography>
               </div>
             </Grid>
             <Grid item id="member-logos">
               <div id="member">
-                <img src={"/team/carolann.png"} alt="carol-ann-williams"/>
+                <img src={"./team/carolann.png"} alt="carol-ann-williams"/>
                 <Typography variant="body2" id="member-name" align="center">Carol Ann Williams <br/> (she/her)</Typography>
               </div>
             </Grid>

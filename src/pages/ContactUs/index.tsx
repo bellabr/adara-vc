@@ -15,7 +15,7 @@ const ContactUs = () => {
         <Typography variant="h1" id="contact-us-title">Contact Us</Typography>
         <Divider id="divider"/>
         <div id="et">
-          <img onClick={onLinkedin} src={"contact-us.png"} alt="contact-us-logo"/>
+          <img onClick={onLinkedin} src={"./contact-us.png"} alt="contact-us-logo"/>
         </div>
         <Typography variant="h4" id="linkedin">LinkedIn</Typography>
       </div>
@@ -29,7 +29,7 @@ const ContactUs = () => {
           <Typography variant="h2" id="contact-us-title">Contact Us</Typography>
           <Divider id="divider"/>
           <div id="et">
-            <img onClick={onLinkedin} src={"contact-us.png"} alt="contact-us-logo"/>
+            <img onClick={onLinkedin} src={"./contact-us.png"} alt="contact-us-logo"/>
           </div>
           <Typography onClick={onLinkedin} variant="h4" id="linkedin">LinkedIn</Typography>
         </div>

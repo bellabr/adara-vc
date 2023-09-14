@@ -2,10 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from '@emotion/react';
 import { createTheme } from '@mui/material';
-// import {
-//   RouterProvider,
-// } from "react-router-dom";
-// import Router from "./router/index";
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
 import Footer from './components/Footer';
