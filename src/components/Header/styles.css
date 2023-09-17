@@ -1,6 +1,6 @@
-#logo {
+/* #logo {
     padding-top: 1vh;
-}
+} */
 
 #header-logo{
     /* width: 156px; */
@@ -14,7 +14,7 @@
 }
 
 #header-logo-text {
-    width: 240px;
+    width: 25vw;
     /* height: 80px; */
     /* padding-left: 2vw; */
 }
@@ -61,12 +61,19 @@ a {
 
 
 
-#header mobile-header {
+#header #mobile-header {
     background-color: #0c242c;
 }
 
+#header #mobile-header-logo-text {
+    font-family: 'Audiowide', sans-serif;
+    color: #93D4EB;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 #mobile-header-logo {
-    padding-left: 10%;
+    /* padding-left: 10%; */
     max-height: 10vh;
 }
 

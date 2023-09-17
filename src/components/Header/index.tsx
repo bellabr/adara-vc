@@ -64,11 +64,16 @@ const Header = () => {
     const mobileMenu = () => {
         return (
             <div id="header">
-                <Grid container justifyContent="space-between" id="mobile-header">
-                    <Grid item xs={2}>
+                <Grid container direction = "row" justifyContent="space-between" alignItems = "center" id="mobile-header">
+                    <Grid item xs={3}>
                         <img src={"./adara-logo.png"} alt="company-logo" id="mobile-header-logo"/>
                     </Grid>
-                    <Grid item xs={2} id="hamburger">
+                    <Grid item xs={6}>
+                        <Typography id="mobile-header-logo-text" align="center">
+                            Adara
+                        </Typography>
+                    </Grid>
+                    <Grid item xs={3} id="hamburger">
                         <IconButton
                             aria-label="open drawer"
                             onClick={() => setDrawerOpen(!drawerOpen)}
