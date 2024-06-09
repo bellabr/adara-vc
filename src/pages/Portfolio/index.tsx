@@ -1,9 +1,13 @@
-import { Grid, Typography, Divider } from "@mui/material";
-import "./styles.css";
+import { Divider, Grid, Typography } from "@mui/material";
 import useWindowSize from "../../hooks/useWindowSize";
+import "./styles.css";
 
 const Portfolio = () => {
   const windowSize = useWindowSize();
+
+  const onAgGene = () => {
+    window.open("https://aggene.ca/", '_blank');
+  }
 
   const onBioMimir = () => {
     window.open("https://www.biomimir.ca/", '_blank');
@@ -46,44 +50,48 @@ const Portfolio = () => {
           <Grid container direction="row" justifyContent="center">
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
+                <img onClick={onAgGene} src={"./portfolio/ag-gene.png"} alt="aggene-logo"/>
+              </div>
+            </Grid>
+            <Grid item xs={5} id="portfolio-logos">
+              <div id="portfolio-logo">
                 <img onClick={onBioMimir} src={"./portfolio/biomimir.png"} alt="biomimir-logo"/>
               </div>
             </Grid>
+          </Grid>
+          <Grid container direction="row" justifyContent="center">
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
                 <img onClick={onDSAI} src={"./portfolio/dsai.png"} alt="dsai-logo"/>
                 <img onClick={onDSAI} src={"./portfolio/dsai-text.png"} alt="dsai-text" id="text-img"/>
               </div>
             </Grid>
-          </Grid>
-          <Grid container direction="row" justifyContent="center">
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
                 <img onClick={onMach32} src={"./portfolio/mach32.png"} alt="mach32-logo"/>
               </div>
             </Grid>
+          </Grid>
+          <Grid container direction="row" justifyContent="center">
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
                 <img onClick={onMindfulGarden} src={"./portfolio/mindful-garden.png"} alt="mindful-garden-logo"/>
                 <img onClick={onMindfulGarden} src={"./portfolio/mindful-garden-text.png"} alt="mindful-garden-text-logo" id="text-img"/>
               </div>
             </Grid>
-          </Grid>
-          <Grid container direction="row" justifyContent="center">
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
                 <img onClick={onNanotess} src={"./portfolio/nanotess.png"} alt="nanotess-logo"/>
                 <img onClick={onNanotess} src={"./portfolio/nanotess-text.png"} alt="nanotess-text-logo" id="text-img"/>
               </div>
             </Grid>
+          </Grid>
+          <Grid container direction="row" justifyContent="center">
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
                 <img onClick={onNimble} src={"./portfolio/nimble.png"} alt="nimble-logo"/>
               </div>
-            </Grid>
-          </Grid>
-          <Grid container direction="row" justifyContent="center">
-            <Grid item xs={5} id="portfolio-logos">
+            </Grid><Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
                 <img onClick={onSyantra} src={"./portfolio/syantra.png"} alt="syantra-logo"/>
                 <img onClick={onSyantra} src={"./portfolio/syantra-text.png"} alt="syantra-text-logo" id="text-img"/>
@@ -103,7 +111,7 @@ const Portfolio = () => {
 
   const mobileLayout = () => {
     return (
-      <div id="portfolio" style={{height: '125vh'}}>
+      <div id="portfolio" style={{height: '160vh'}}>
         <div id="mobile-portfolio">
           <Typography variant="h2" id="portfolio-title">Portfolio</Typography>
           <Divider id="divider"/>
@@ -111,49 +119,56 @@ const Portfolio = () => {
             <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
+                  <img onClick={onAgGene} src={"./portfolio/ag-gene.png"} alt="aggene-logo"/>
+                </div>
+              </Grid>
+              <Grid item xs={5} id="portfolio-logos">
+                <div id="portfolio-logo">
                   <img onClick={onBioMimir} src={"./portfolio/biomimir.png"} alt="biomimir-logo"/>
                 </div>
               </Grid>
+            </Grid>
+            <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onDSAI} src={"./portfolio/dsai.png"} alt="dsai-logo"/>
                   <img onClick={onDSAI} src={"./portfolio/dsai-text.png"} alt="dsai-text" id="text-img"/>
                 </div>
               </Grid>
-            </Grid>
-            <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onMach32} src={"./portfolio/mach32.png"} alt="mach32-logo"/>
                 </div>
               </Grid>
+            </Grid>
+            <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onMindfulGarden} src={"./portfolio/mindful-garden.png"} alt="mindful-garden-logo"/>
                   <img onClick={onMindfulGarden} src={"./portfolio/mindful-garden-text.png"} alt="mindful-garden-text-logo" id="text-img"/>
                 </div>
               </Grid>
-            </Grid>
-            <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onNanotess} src={"./portfolio/nanotess.png"} alt="nanotess-logo"/>
                   <img onClick={onNanotess} src={"./portfolio/nanotess-text.png"} alt="nanotess-text-logo" id="text-img"/>
                 </div>
               </Grid>
+            </Grid>
+            <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onNimble} src={"./portfolio/nimble.png"} alt="nimble-logo"/>
                 </div>
               </Grid>
-            </Grid>
-            <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onSyantra} src={"./portfolio/syantra.png"} alt="syantra-logo"/>
                   <img onClick={onSyantra} src={"./portfolio/syantra-text.png"} alt="syantra-text-logo" id="text-img"/>
                 </div>
               </Grid>
+            </Grid>
+            <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onVoxCell} src={"./portfolio/voxcell.png"} alt="voxcell-logo"/>

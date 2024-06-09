@@ -4,7 +4,7 @@ Typography {
 
 #portfolio {
     background-color: white;
-    height: 180vh;
+    height: 220vh;
     width: 100vw;
 
     display: flex;
@@ -34,7 +34,7 @@ Typography {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 35vh;
 }
 
 #portfolio #portfolio-logos #portfolio-logo {
@@ -76,6 +76,10 @@ Typography {
     font-family: 'Audiowide', sans-serif;
     color: black;
     padding-bottom: 1vh;
+}
+
+#portfolio #mobile-portfolio #portfolio-grid {
+    padding-top: 5vh;
 }
 
 #portfolio #mobile-portfolio #divider {

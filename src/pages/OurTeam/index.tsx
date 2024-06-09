@@ -1,8 +1,8 @@
-import { Grid, Tooltip, Typography, Divider } from "@mui/material";
-import { styled } from '@mui/material/styles';
+import { Divider, Grid, Tooltip, Typography } from "@mui/material";
 import { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
-import "./styles.css";
+import { styled } from '@mui/material/styles';
 import useWindowSize from "../../hooks/useWindowSize";
+import "./styles.css";
 
 const OurTeam = () => {
   const windowSize = useWindowSize();
@@ -40,7 +40,7 @@ const OurTeam = () => {
             <Grid item xs={4} id="member-logos">
               <div id="member">
                 <HtmlTooltip title="Heather Edwards (she/her)" arrow>
-                  <img src={"./team/heather.webp"} alt="heather-edwards"/>
+                  <img src={"./team/heather.png"} alt="heather-edwards"/>
                 </HtmlTooltip>
               </div>
             </Grid>
@@ -95,7 +95,7 @@ const OurTeam = () => {
             </Grid>
             <Grid item id="member-logos">
               <div id="member">
-                <img src={"./team/heather.webp"} alt="heather-edwards"/>
+                <img src={"./team/heather.png"} alt="heather-edwards"/>
                 <Typography variant="body2" id="member-name" align="center">Heather Edwards <br/> (she/her)</Typography>
               </div>
             </Grid>

@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from '@emotion/react';
 import { createTheme } from '@mui/material';
-import reportWebVitals from './reportWebVitals';
-import Header from './components/Header';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import Footer from './components/Footer';
-import Home from './pages/Home';
+import Header from './components/Header';
 import './index.css';
+import Home from './pages/Home';
+import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -135,8 +135,11 @@ const App = () => {
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
+        <meta name="description" content="Adara Venture Capital." />
+        <meta property="og:title" content="Adara VC" />
+        <meta name="google-site-verification" content="dRNTvgu3heqMp1ofbVH4vlTppDYOPtyql7SK9lwZnXY" />
         <div> <Header/> <Home/> <Footer/> </div>
-      </ThemeProvider>    
+      </ThemeProvider> 
     </div>
   )
 }
