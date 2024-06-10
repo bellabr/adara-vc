@@ -17,6 +17,10 @@ const Portfolio = () => {
     window.open("https://www.deepsurfaceai.com/", '_blank');
   }
 
+  const onFluidBiomed = () => {
+    window.open("https://fluidbiomed.com/", '_blank');
+  }
+
   const onMach32 = () => {
     window.open("https://www.mach32.net/", '_blank');
   }
@@ -68,30 +72,38 @@ const Portfolio = () => {
             </Grid>
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
-                <img onClick={onMach32} src={"./portfolio/mach32.png"} alt="mach32-logo"/>
+                <img onClick={onFluidBiomed} src={"./portfolio/fluid-biomed.png"} alt="fluid-biomed-logo"/>
               </div>
             </Grid>
           </Grid>
           <Grid container direction="row" justifyContent="center">
+            <Grid item xs={5} id="portfolio-logos">
+              <div id="portfolio-logo">
+                <img onClick={onMach32} src={"./portfolio/mach32.png"} alt="mach32-logo"/>
+              </div>
+            </Grid>
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
                 <img onClick={onMindfulGarden} src={"./portfolio/mindful-garden.png"} alt="mindful-garden-logo"/>
                 <img onClick={onMindfulGarden} src={"./portfolio/mindful-garden-text.png"} alt="mindful-garden-text-logo" id="text-img"/>
               </div>
             </Grid>
+          </Grid>
+          <Grid container direction="row" justifyContent="center">
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
                 <img onClick={onNanotess} src={"./portfolio/nanotess.png"} alt="nanotess-logo"/>
                 <img onClick={onNanotess} src={"./portfolio/nanotess-text.png"} alt="nanotess-text-logo" id="text-img"/>
               </div>
             </Grid>
-          </Grid>
-          <Grid container direction="row" justifyContent="center">
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
                 <img onClick={onNimble} src={"./portfolio/nimble.png"} alt="nimble-logo"/>
               </div>
-            </Grid><Grid item xs={5} id="portfolio-logos">
+            </Grid>
+          </Grid>
+          <Grid container direction="row" justifyContent="center">
+            <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
                 <img onClick={onSyantra} src={"./portfolio/syantra.png"} alt="syantra-logo"/>
                 <img onClick={onSyantra} src={"./portfolio/syantra-text.png"} alt="syantra-text-logo" id="text-img"/>
@@ -137,38 +149,44 @@ const Portfolio = () => {
               </Grid>
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
-                  <img onClick={onMach32} src={"./portfolio/mach32.png"} alt="mach32-logo"/>
+                  <img onClick={onFluidBiomed} src={"./portfolio/fluid-biomed.png"} alt="fluid-biomed-logo"/>
+                  {/* <img onClick={onFluidBiomed} src={"./portfolio/dsai-text.png"} alt="dsai-text" id="text-img"/> */}
                 </div>
               </Grid>
             </Grid>
             <Grid container direction="row" justifyContent="center">
+              <Grid item xs={5} id="portfolio-logos">
+                <div id="portfolio-logo">
+                  <img onClick={onMach32} src={"./portfolio/mach32.png"} alt="mach32-logo"/>
+                </div>
+              </Grid>
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onMindfulGarden} src={"./portfolio/mindful-garden.png"} alt="mindful-garden-logo"/>
                   <img onClick={onMindfulGarden} src={"./portfolio/mindful-garden-text.png"} alt="mindful-garden-text-logo" id="text-img"/>
                 </div>
               </Grid>
+            </Grid>
+            <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onNanotess} src={"./portfolio/nanotess.png"} alt="nanotess-logo"/>
                   <img onClick={onNanotess} src={"./portfolio/nanotess-text.png"} alt="nanotess-text-logo" id="text-img"/>
                 </div>
               </Grid>
-            </Grid>
-            <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onNimble} src={"./portfolio/nimble.png"} alt="nimble-logo"/>
                 </div>
               </Grid>
+            </Grid>
+            <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onSyantra} src={"./portfolio/syantra.png"} alt="syantra-logo"/>
                   <img onClick={onSyantra} src={"./portfolio/syantra-text.png"} alt="syantra-text-logo" id="text-img"/>
                 </div>
               </Grid>
-            </Grid>
-            <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onVoxCell} src={"./portfolio/voxcell.png"} alt="voxcell-logo"/>
