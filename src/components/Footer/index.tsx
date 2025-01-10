@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
-import "./styles.css";
 import useWindowSize from "../../hooks/useWindowSize";
+import "./styles.css";
 
 const Footer = () => {
   const windowSize = useWindowSize();
@@ -23,6 +23,11 @@ const Footer = () => {
                     <Grid item xs="auto" id="menu-item">
                         <Typography variant="h6" id="menu-item-text">
                             <a href="#portfolio">Portfolio</a>
+                        </Typography>
+                    </Grid>
+                    <Grid item xs="auto" id="menu-item">
+                        <Typography variant="h6" id="menu-item-text">
+                            <a href="#exits">Exits</a>
                         </Typography>
                     </Grid>
                     <Grid item xs="auto" id="menu-item">
@@ -79,6 +84,11 @@ const Footer = () => {
                     <Grid item xs="auto" id="menu-item">
                         <Typography variant="h6" id="menu-item-text">
                             <a href="#giving-back">Giving Back</a>
+                        </Typography>
+                    </Grid>
+                    <Grid item xs="auto" id="menu-item">
+                        <Typography variant="h6" id="menu-item-text">
+                            <a href="#exits">Exits</a>
                         </Typography>
                     </Grid>
                     <Grid item xs="auto" id="menu-item">

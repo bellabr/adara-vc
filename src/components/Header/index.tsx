@@ -1,9 +1,9 @@
-import "./styles.css";
 import { AppBar, Drawer, Grid, IconButton, Typography } from "@mui/material";
-import { useWindowSize } from "../../hooks/useWindowSize";
-import { useState, useEffect } from "react";
-import { IoMdArrowDropdown } from 'react-icons/io';
+import { useEffect, useState } from "react";
 import { AiOutlineMenu } from 'react-icons/ai';
+import { IoMdArrowDropdown } from 'react-icons/io';
+import { useWindowSize } from "../../hooks/useWindowSize";
+import "./styles.css";
 
 const Header = () => {
     const windowSize = useWindowSize();
@@ -103,6 +103,11 @@ const Header = () => {
                 <Grid item xs="auto" id="menu-item">
                     <Typography variant="h6" id="drop-down-menu-item-text">
                         <a href="#portfolio" onClick={() => setDrawerOpen(false)}>Portfolio</a>
+                    </Typography>
+                </Grid>
+                <Grid item xs="auto" id="menu-item">
+                    <Typography variant="h6" id="drop-down-menu-item-text">
+                        <a href="#exits" onClick={() => setDrawerOpen(false)}>Exits</a>
                     </Typography>
                 </Grid>
                 <Grid item xs="auto" id="menu-item">

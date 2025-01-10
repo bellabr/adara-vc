@@ -1,0 +1,114 @@
+Typography {
+    font-family: 'Audiowide', sans-serif;
+}
+
+#exits {
+    background-color: white;
+    height: 70vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#exits #exits-title {
+    font-family: 'Audiowide', sans-serif;
+    color: black;
+    padding-bottom: 5vh;
+}
+
+#exits #divider {
+    background-color: black;
+    border-width: 1px;
+    width: 90vw;
+}
+
+#exits #exits-grid {
+    padding-top: 10vh;
+}
+
+#exits #exits-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+#exits #exits-logos #exits-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#exits img {
+    max-width: 30vw;
+    max-height: 20vh;
+}
+
+#exits #text-img {
+    max-width: 20vw;
+}
+
+#exits #exits-logos #exits-logo:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+
+
+
+#exits #mobile-exits {
+    background-color: white;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#exits #mobile-exits #exits-title {
+    font-family: 'Audiowide', sans-serif;
+    color: black;
+    padding-bottom: 1vh;
+}
+
+#exits #mobile-exits #exits-grid {
+    padding-top: 5vh;
+}
+
+#exits #mobile-exits #divider {
+    background-color: black;
+    border-width: 1px;
+    width: 90vw;
+}
+
+#exits #mobile-exits #exits-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+#exits #mobile-exits #exits-logos #exits-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#exits #mobile-exits img {
+    max-width: 30vw;
+    max-height: 20vh;
+}
+
+#exits #mobile-exits #exits-logos #exits-logo:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+

@@ -37,8 +37,8 @@ const Portfolio = () => {
     window.open("https://www.nimblesci.com/", '_blank');
   }
 
-  const onSyantra = () => {
-    window.open("https://www.syantra.com/", '_blank');
+  const onTotalFlow = () => {
+    window.open("https://www.totalflowmedical.com/", '_blank');
   }
 
   const onVoxCell = () => {
@@ -105,8 +105,7 @@ const Portfolio = () => {
           <Grid container direction="row" justifyContent="center">
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
-                <img onClick={onSyantra} src={"./portfolio/syantra.png"} alt="syantra-logo"/>
-                <img onClick={onSyantra} src={"./portfolio/syantra-text.png"} alt="syantra-text-logo" id="text-img"/>
+                <img onClick={onTotalFlow} src={"./portfolio/totalflow.png"} alt="totalflow-logo"/>
               </div>
             </Grid>
             <Grid item xs={5} id="portfolio-logos">
@@ -123,7 +122,7 @@ const Portfolio = () => {
 
   const mobileLayout = () => {
     return (
-      <div id="portfolio" style={{height: '160vh'}}>
+      <div id="portfolio" style={{height: '140vh', paddingTop: '5vh'}}>
         <div id="mobile-portfolio">
           <Typography variant="h2" id="portfolio-title">Portfolio</Typography>
           <Divider id="divider"/>
@@ -150,7 +149,6 @@ const Portfolio = () => {
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
                   <img onClick={onFluidBiomed} src={"./portfolio/fluid-biomed.png"} alt="fluid-biomed-logo"/>
-                  {/* <img onClick={onFluidBiomed} src={"./portfolio/dsai-text.png"} alt="dsai-text" id="text-img"/> */}
                 </div>
               </Grid>
             </Grid>
@@ -183,8 +181,7 @@ const Portfolio = () => {
             <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
-                  <img onClick={onSyantra} src={"./portfolio/syantra.png"} alt="syantra-logo"/>
-                  <img onClick={onSyantra} src={"./portfolio/syantra-text.png"} alt="syantra-text-logo" id="text-img"/>
+                  <img onClick={onTotalFlow} src={"./portfolio/totalflow.png"} alt="syantra-logo"/>
                 </div>
               </Grid>
               <Grid item xs={5} id="portfolio-logos">
