@@ -13,8 +13,8 @@ const Portfolio = () => {
     window.open("https://www.biomimir.ca/", '_blank');
   }
 
-  const onDSAI = () => {
-    window.open("https://www.deepsurfaceai.com/", '_blank');
+  const onFlora = () => {
+    window.open("https://heyflora.com", '_blank');
   }
 
   const onFluidBiomed = () => {
@@ -66,8 +66,7 @@ const Portfolio = () => {
           <Grid container direction="row" justifyContent="center">
             <Grid item xs={5} id="portfolio-logos">
               <div id="portfolio-logo">
-                <img onClick={onDSAI} src={"./portfolio/dsai.png"} alt="dsai-logo"/>
-                <img onClick={onDSAI} src={"./portfolio/dsai-text.png"} alt="dsai-text" id="text-img"/>
+                <img onClick={onFlora} src={"./portfolio/flora.png"} alt="flora-logo"/>
               </div>
             </Grid>
             <Grid item xs={5} id="portfolio-logos">
@@ -142,8 +141,7 @@ const Portfolio = () => {
             <Grid container direction="row" justifyContent="center">
               <Grid item xs={5} id="portfolio-logos">
                 <div id="portfolio-logo">
-                  <img onClick={onDSAI} src={"./portfolio/dsai.png"} alt="dsai-logo"/>
-                  <img onClick={onDSAI} src={"./portfolio/dsai-text.png"} alt="dsai-text" id="text-img"/>
+                  <img onClick={onFlora} src={"./portfolio/flora.png"} alt="flora-logo"/>
                 </div>
               </Grid>
               <Grid item xs={5} id="portfolio-logos">

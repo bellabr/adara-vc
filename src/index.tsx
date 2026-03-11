@@ -50,7 +50,7 @@ const THEME = createTheme({
     },
     h6: {
       fontSize: 17,
-      fontWeight: 700,
+      fontWeight: 300,
       color: "#363636",
     },
     body1: {
